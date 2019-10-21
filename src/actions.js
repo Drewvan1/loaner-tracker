@@ -13,7 +13,8 @@ export const setSearchField = (text) => ({
 })
 
 
-const apiServer = 'http://localhost:5000/reservations'
+//const apiServer = 'http://localhost:5000/reservations'
+const apiServer = '/reservations'
 
 // need to use a higher order function here (eg function returning a function) because a typical action return is an object but
 //  redux-thunk is looking for a function.  when it sees that it knows the code may be asynchronous and therefore will listen for the promise response
